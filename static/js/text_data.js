@@ -15,8 +15,8 @@ if (name === "backend") {
 } else if (name === "ml") {
     job_ru = "mle специалист";
     job_en = "mle specialist";
-    action_ru = "Реализую ML модели на PyTorch. <br> Люблю скоринговые модели и работу с временными рядами";
-    action_en = "I implement ML models in PyTorch. <br> I like scoring models and working with time series";
+    action_ru = ". Реализую ML модели на PyTorch <br> Люблю скоринговые модели и работу с временными рядами";
+    action_en = ". I implement ML models in PyTorch <br> I like scoring models and working with time series";
     about_ru = "Я увлекаюсь соревнованиями на Kaggle, где использую Keras для быстрого создания моделей. Больше всего мне нравятся задачи регрессии и классификации, решаемые классическими методами машинного обучения, благодаря которым достигается высокая интерпретируемость моделей";
     about_en = "I am passionate about competitions on Kaggle, where I use Keras for fast model building. I like most of all regression and classification problems solved by classical machine learning methods, thanks to which high interpretability of models is achieved";
     goal_1_ru = "В ближайшее время я планирую получше изучить генеративные модели и написать собственную RAG LLM";
@@ -34,7 +34,7 @@ const textData = {
         "contact-me": "Написать мне",
         "theme": "Темная тема",
         "title": `Привет! Я Минкин Даниэль - junior ${job_ru}`,
-        "title-description": `Я студент ФЭН ВШЭ. ${action_ru}\n`,
+        "title-description": `Я студент ФЭН ВШЭ${action_ru}\n`,
         "about-me-text": about_ru,
         "hse-name": "НИУ «ВШЭ»",
         "hse-time-title": "Сентябрь 2023 – Настоящее время",
@@ -59,7 +59,7 @@ const textData = {
         "contact-me": "Contact me",
         "theme": "Dark theme",
         "title": `Hi! I'm Minkin Daniel - junior ${job_en}`,
-        "title-description": `I am a student of the FES HSE. ${action_en}\n`,
+        "title-description": `I am a student of the FES HSE${action_en}\n`,
         "about-me-text": about_en,
         "hse-name": "HSE",
         "hse-time-title": "September 2023 - Present",
