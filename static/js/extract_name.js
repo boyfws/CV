@@ -1,3 +1,5 @@
-const path = window.location.pathname;
+const name = sessionStorage.getItem("path")
 
-const name = path.split("/").pop()
+if (name === null) {
+    window.location.replace('/404.html');
+}

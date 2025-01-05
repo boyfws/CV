@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+      function checkPathAndRedirect() {
+        const path = window.location.pathname;
+
+        const normalizedPath = path.replace(/^\/|\/$/g, '');
+
+        // Проверяем, является ли путь "ml" или "backend"
+        if (normalizedPath === 'ml' || normalizedPath === 'backend') {
+          window.location.replace('/index.html');
+          sessionStorage.setItem("path", normalizedPath);
+        }
+      }
+
+      checkPathAndRedirect();
+  </script>
+</head>
+<body>
+
+</body>
+</html>
