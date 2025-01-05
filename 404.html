@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet", crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/css/custom.css">
+
+    <title> Минкин Даниэль </title>
+  </head>
+  <body>
+    <script src="../static/js/extract_name.js" defer></script>
+    <script src="../static/js/text_data.js" defer></script>
+    <script src="../static/js/switchers.js" defer></script>
+    <script src="../static/js/init_switchers.js" defer></script>
+    <script src="../static/js/switchers_hooks.js" defer></script>
+    <!-- Секция промо с темным фоном - шапка сайта -->
+    <section class="promo dark-bg pt-2 pb-5">
+      <div class="container">
+        <!-- Навигационная панель с логотипом и кнопкой -->
+        <nav class="navbar navbar-expand-lg mb-5 navbar-dark">
+          <div class="container-fluid">
+
+            <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+            >
+              <span
+                      class="navbar-toggler-icon"
+              >
+
+              </span>
+            </button>
+            <!-- Меню навигации -->
+            <div
+                    class="collapse navbar-collapse"
+                    id="navbarNav"
+            >
+              <ul class="nav m-auto">
+
+                <li class="nav-item mx-3">
+
+                  <a
+                          href="#story"
+                          class="nav-link link-purple link-border-bottom"
+                          data-translate="about-me"
+                  >
+                    Вкратце обо мне
+                  </a>
+
+                </li>
+                <li class="nav-item mx-3">
+
+                  <a
+                          href="#projects"
+                          class="nav-link link-purple link-border-bottom"
+                          data-translate="work-exp"
+                  >
+                    Мой опыт работы
+                  </a>
+
+                </li>
+                <li class="nav-item mx-3">
+
+                  <a
+                          href="https://github.com/boyfws"
+                          class="nav-link link-purple link-border-bottom"
+                  >
+                    Github
+                  </a>
+
+                </li>
+                <li class="nav-item mx-3 mr-0">
+
+                  <a
+                          href="#contact"
+                          class="nav-link link-purple link-border-bottom"
+                          data-translate="contact-me"
+                  >
+                    Написать мне
+                  </a>
+
+                </li>
+
+              </ul>
+                <form class="d-flex align-items-center">
+                    <!-- Переключатель для темного режима -->
+                  <div class="switchers">
+                    <div class="form-check form-switch me-3">
+                        <input class="form-check-input" type="checkbox" id="themeSwitch">
+                        <label
+                                class="form-check-label"
+                                for="themeSwitch"
+                                data-translate="theme"
+                        >
+                          Темная тема
+                        </label>
+                    </div>
+                    <!-- Переключатель для языка -->
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="languageSwitch">
+                        <label class="form-check-label" for="languageSwitch">English</label>
+                    </div>
+                  </div>
+                </form>
+            </div>
+          </div>
+        </nav>
+
+         <!-- Блок приветствия с основной информацией -->
+        <div class="row py-0 py-sm-5">
+          <div class="col-12 col-lg-8 offset-lg-2 mb-0 mb-sm-5 py-5">
+
+            <h1
+                    class="h1 font-weight-bold font greeting-text text-blue"
+                    data-translate="title"
+            >
+              Привет! Здесь вы напишете о себе
+            </h1>
+
+            <p
+                    class="promo-text pb-3"
+                    data-translate="title-description"
+            >
+              Я&nbsp;&mdash; студент Высшей Школы Экономики, ФКН/ФЭН ВШЭ, <br> Учусь хорошо, мечтаю начать ходить на все лекции.
+            </p>
+
+            <a
+                    href="#contact"
+                    class="btn text-center"
+                    style="background-color: #DCFF05; color: #102D69"
+                    data-translate="contact-me"
+            >
+              Написать мне
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- Секция "Обо мне" -->
+    <section class="story container py-5 text-center" id="story">
+      <h2
+              class="h1 font-weight-bold mt-4 mb-3 mb-sm-5 pb-3 navigo-font"
+              data-translate="about-me"
+      >
+        Обо мне
+      </h2>
+      <div class="row">
+        <div
+                class="col-12 col-sm-8 offset-sm-2 px-2 pb-5"
+        >
+          <p
+                  class="font-weight-bold pb-4"
+                  data-translate="about-me-text"
+          >
+            Я &mdash; обычный студент (здесь напишите о себе);
+          </p>
+        </div>
+      </div>
+    </section>
+     <!-- Секция опыта работы с темным фоном -->
+    <section class="projects dark-bg pt-3 pt-sm-5 pb-3" id="projects">
+      <div class="container">
+        <h2
+                class="h1 font-weight-bold text-center mt-4 mt-sm-5 mb-0 mb-sm-4 pb-5 navigo-font"
+                data-translate="work-exp"
+        >
+          Мой опыт работы
+        </h2>
+        
+        <div class="work-experience text-white">
+          <div class="d-flex align-items-center mb-4">
+            <img src="../static/01_Logo_HSE_full_rus_PANTONE_for_dark_2.png" alt="HSE Logo" class="me-3" style="height: 60px; margin-top: -6px;">
+            <div class="d-flex flex-column justify-content-center">
+              <h3
+                      class="h4 mb-1"
+                      data-translate="hse-name"
+              >
+                НИУ «ВШЭ»
+              </h3>
+              <p
+                      class="text-white-40 mb-0"
+                      data-translate="hse-time-title"
+              >
+                Сентябрь 2022 – Настоящее время
+              </p>
+            </div>
+          </div>
+        </div>
+          
+          <div class="position mb-4" style="margin-left: 20px;">
+            <h4
+                    class="h5 text-purple"
+                    data-translate="hse-status-1"
+            >
+              Студент
+            </h4>
+            <p
+                    class="text-white"
+                    style="opacity: 0.4"
+                    data-translate="hse-status-1-time"
+            >
+              Сентябрь 2022 – настоящее время
+            </p>
+            <p
+                    data-translate="hse-status-1-description"
+            >
+              Занимаюсь изучением математики и программирования.
+            </p>
+          </div>
+
+        <div class="position mb-4" style="margin-left: 20px;">
+          <h4
+                  class="h5 text-purple"
+                  data-translate="hse-status-2"
+          >
+            Студент
+          </h4>
+          <p
+                  class="text-white"
+                  style="opacity: 0.4"
+                  data-translate="hse-status-2-time"
+          >
+            Сентябрь 2022 – настоящее время
+          </p>
+          <p
+                  data-translate="hse-status-2-description"
+          >
+            Занимаюсь изучением математики и программирования.
+          </p>
+        </div>
+      </div>
+    </section>
+ <!-- Секция личных целей -->
+    <section class="goals container pt-3 pt-sm-5 pb-3">
+      <h2
+              class="h2 font-weight-bold my-4"
+              data-translate="goals-title"
+      >
+        Мои цели
+      </h2>
+      <div class="row">
+        <div class="col-12 col-sm-8 pb-1">
+          <p
+                  class="pb-2"
+                  data-translate="goal-1"
+          >
+            Добиться в Ровеснике скидку 20%.
+          </p>
+          <p
+                  class="pb-2"
+                  data-translate="goal-2"
+          >
+            Добиться в Ровеснике скидку 100%.
+          </p>
+
+        </div>
+      </div>
+    </section>
+
+     <!-- Секция сотрудничества -->
+    <section class="goals container mb-5 pb-sm-5 pb-0" id="contact">
+      <h2
+              class="h2 font-weight-bold my-4"
+              data-translate="cooperation"
+      >
+        Сотрудничество
+      </h2>
+      <div class="row">
+        <div class="col-12 col-sm-8 pb-1">
+          <p
+                  class="pb-1 mb-1"
+                  data-translate="cooperation-description"
+          >
+            Если интересно, что я могу для вас сделать, пишите:
+          </p>
+          <!-- Блок с кнопками для связи -->
+          <div class="row">
+            <div class="col-12 col-sm-9">
+              <p class="d-flex justify-content-start gap-2 flex-wrap">
+                <a
+                        href="https://t.me/MinkinDD"
+                        class="btn mb-3" style="background-color: #DCFF05; color: #102D69"
+                        target="_blank"
+                        data-translate="tg-button"
+                >
+                  Написать в Telegram
+                </a>
+                <a
+                        href="https://example.com/"
+                        class="btn mb-3"
+                        style="background-color: #DCFF05; color: #102D69"
+                        target="_blank"
+                        data-translate="resume-button"
+                >
+                  Посмотреть резюме
+                </a>
+                <a
+                        href="mailto:minkin.d.d@gmail.com"
+                        class="btn mb-3"
+                        style="background-color: #DCFF05; color: #102D69"
+                        target="_blank"
+                        data-translate="email-button"
+                >
+                  Написать на почту
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Подключение скриптов Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
