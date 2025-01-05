@@ -10,15 +10,15 @@ if (name === "backend") {
     about_en = "I develop microservice applications using both REST APIs and gRPC. I prefer to use PostgreSQL as my main database and Redis for caching";
     goal_1_ru = "В ближайшее время я планирую попробовать пописать код на Go";
     goal_1_en = "I plan to try writing code in Go in the near future";
-    goal_2_ru = "";
-    goal_2_en = "";
+    goal_2_ru = "Также я бы хотел поближе поработать с gRPC и использовать его как основной протокол в своем следующем проекте";
+    goal_2_en = "I'd also like to work more closely with gRPC and use it as a core protocol in my next project";
 } else if (name === "ml") {
     job_ru = "mle специалист";
     job_en = "mle specialist";
     action_ru = "Реализую ML модели на PyTorch. <br> Люблю скоринговые модели и работу с временными рядами";
     action_en = "I implement ML models in PyTorch. <br> I like scoring models and working with time series";
-    about_ru = "Мне интересно участвовать в соревнованиях на Kaggle, используя keras для быстрого создания моделей. Больше всего мне нравятся задачи регрессии и классификации с использованием классических методов машинного обучения";
-    about_en = "I'm interested in competing on Kaggle using keras for rapid model building. I most enjoy regression and classification tasks using classical machine learning methods";
+    about_ru = "Я увлекаюсь соревнованиями на Kaggle, где использую Keras для быстрого создания моделей. Больше всего мне нравятся задачи регрессии и классификации, решаемые классическими методами машинного обучения, благодаря которым достигается высокая интерпретируемость моделей";
+    about_en = "I am passionate about competitions on Kaggle, where I use Keras for fast model building. I like most of all regression and classification problems solved by classical machine learning methods, thanks to which high interpretability of models is achieved";
     goal_1_ru = "В ближайшее время я планирую получше изучить генеративные модели и написать собственную RAG LLM";
     goal_1_en = "In the near future, I plan to get a better understanding of generative models and write my own RAG LLM";
     goal_2_ru = "Также я хочу попробовать язык программирования Julia для быстрой реализации высоконагруженных программ";
