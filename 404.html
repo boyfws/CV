@@ -7,11 +7,11 @@
       function checkPathAndRedirect() {
         const path = window.location.pathname;
 
-        const normalizedPath = path.replace(/^\/|\/$/g, '');
+        const normalizedPath = path.split("/").pop();
 
         // Проверяем, является ли путь "ml" или "backend"
         if (normalizedPath === 'ml' || normalizedPath === 'backend') {
-          window.location.replace('/index.html');
+          window.location.replace('/CV/index.html');
           sessionStorage.setItem("path", normalizedPath);
         }
       }
