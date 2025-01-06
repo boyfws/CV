@@ -13,6 +13,8 @@
         if (normalizedPath === 'ml' || normalizedPath === 'backend') {
           window.location.replace('/CV/index.html');
           sessionStorage.setItem("path", normalizedPath);
+        } else {
+            window.location.replace('/');
         }
       }
 
