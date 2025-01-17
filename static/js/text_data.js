@@ -2,7 +2,7 @@ const textData = {
     "ru": {
         "about-me": "Обо мне",
         "work-exp": "Мой опыт работы",
-        "contact-me": "Написать мне",
+        "contact-me": "Перейти к резюме",
         "theme": "Темная тема",
         "title": "Привет! Я Минкин Даниэль - junior mle специалист",
         "title-description": "Я студент ВШЭ. Реализую ML модели на PyTorch <br> Я занимаюсь применением машинного обучения в банкинге и страховании",
@@ -19,7 +19,7 @@ const textData = {
         "goal-1": "В ближайшее время я хочу глубже изучить модели для создания sentence embedding, чтобы оптимизировать их работу в задачах поиска по семантическому сходству",
         "goal-2": "Мне очень интересна метрика кластеризации - DBCV. Однако сейчас она требует очень много вычислительных ресурсов. Я планирую провести исследование, связанное с разработкой похожей метрики, которая будет более оптимизированной, сохраняя при этом позитивные стороны DBCV ",
         "cooperation": "Сотрудничество",
-        "cooperation-description": "Если интересно, что я могу для вас сделать, пишите:",
+        "cooperation-description": "Если вы хотите узнать, как я могу быть полезен вашей компании, свяжитесь со мной",
         "tg-button": "Написать в Telegram",
         "resume-button": "Посмотреть резюме",
         "email-button": "Написать на почту"
@@ -27,7 +27,7 @@ const textData = {
     "en": {
         "about-me": "About me",
         "work-exp": "Work experience",
-        "contact-me": "Contact me",
+        "contact-me": "Go to CV",
         "theme": "Dark theme",
         "title": "Hi! I'm Minkin Daniel - junior mle specialist",
         "title-description": "I am a student of the HSE. I implement ML models in PyTorch <br> I am involved in the application of machine learning in banking and insurance",
@@ -44,9 +44,9 @@ const textData = {
         "goal-1": "In the near future, I want to further explore models for sentence embedding to optimize their performance in semantic similarity search tasks",
         "goal-2": "I am very interested in the clustering metric - DBCV. However, right now it requires a lot of computational resources. I plan to conduct a research related to the development of a similar metric, which will be more optimized, while maintaining the positive aspects of DBCV ",
         "cooperation": "Working with me",
-        "cooperation-description": "If you're interested in what I can do for you, write:",
+        "cooperation-description": "If you would like to find out how I can be of service to your company, please contact me",
         "tg-button": "Write me on Telegram",
-        "resume-button": "View resume",
+        "resume-button": "View CV",
         "email-button": "Write to e-mail"
 
     }
