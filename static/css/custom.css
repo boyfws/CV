@@ -63,7 +63,7 @@ body.loaded {
 
 .promo-text {
   font-size: 24px;
-  opacity: .75;
+  opacity: 1;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -239,3 +239,10 @@ h1.greeting-text {
     margin: 0.5rem 0 !important; /* Добавляем отступы между элементами */
   }
 }
+
+.button {
+  background-color: #b3cd11 !important;
+  color: #102D69 !important;
+}
+
+/* #102D69  */
