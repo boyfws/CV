@@ -37,11 +37,9 @@ const switch_to_ru = () => {
                 element.innerHTML = textData["ru"][key];
         });
         document.title = "Минкин Даниэль";
-        if (name === "backend") {
-                resume.href = "https://www.example.com"
-        } else if (name === "ml") {
-                resume.href = "https://www.example.com"
-        }
+
+        resume.href = "https://drive.google.com/file/d/16E3_zF2o8IQXdUDCIUnINGvHle9AB3uY/view?usp=sharing"
+
         CreateEffect();
         localStorage.setItem("lang", "ru");
 
@@ -53,11 +51,8 @@ const switch_to_en = () => {
                 element.innerHTML = textData["en"][key];
         });
         document.title = "Minkin Daniel"
-        if (name === "backend") {
-                resume.href = "https://www.example.com"
-        } else if (name === "ml") {
-                resume.href = "https://www.example.com"
-        }
+
+        resume.href = "https://drive.google.com/file/d/16E3_zF2o8IQXdUDCIUnINGvHle9AB3uY/view?usp=sharing"
         CreateEffect();
         localStorage.setItem("lang", "en");
 
