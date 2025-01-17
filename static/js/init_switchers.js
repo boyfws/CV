@@ -1,11 +1,29 @@
 document.addEventListener("DOMContentLoaded", () => {
+    var savedLanguage, savedTheme
+
     var themeSwitch = document.getElementById("themeSwitch");
     var languageSwitch = document.getElementById("languageSwitch");
 
-    var savedTheme = localStorage.getItem("theme");
-    var savedLanguage = localStorage.getItem("lang");
+    savedTheme = localStorage.getItem("theme");
+
+    savedLanguage = localStorage.getItem("lang");
 
 
+    if (savedLanguage === null){
+        var userLanguage = navigator.language || navigator.userLanguage;
+
+        var [language] = userLanguage.split('-');
+
+        savedLanguage = language === "ru" ? "ru" : "en";
+    }
+
+    if (savedTheme === null){
+        var isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+        savedTheme = isDarkMode ? "dark" : "light";
+    }
+
+    
     if (savedLanguage === "en") {
         languageSwitch.checked = true;
         switch_to_en()
